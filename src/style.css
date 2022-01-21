@@ -4,13 +4,13 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    box-sizing: border-box;
 }
 
 .nav {
     display: flex;
     height: 10vh;
     background-color: #a0aacc;
+    transition: background-color 5s ease-in-out;
 }
 
 .new-tab {
@@ -25,6 +25,7 @@ li {
     border: 1px solid #191d2d;
     height: 100%;
     width: 100%;
+    box-sizing: border-box;
 }
 
 a {

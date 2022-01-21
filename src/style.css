@@ -1,0 +1,36 @@
+
+#content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    height: 10vh;
+    background-color: #a0aacc;
+}
+
+.new-tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+
+li {
+    border: 1px solid #191d2d;
+}
+
+.color {
+    background-color: #4c7498;
+    border: 1px solid #191d2d;
+    box-shadow: 0 -5px 8px #191d2d;
+}
+
+img {
+    transform: scale(4);
+}
